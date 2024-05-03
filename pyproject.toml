@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "crud-fastapi-rest"
+version = "0.1.0"
+description = ""
+authors = ["bekzod-fayzikuloff <fayzikuloff.b@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+fastapi = "^0.110.3"
+uvicorn = "^0.29.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
